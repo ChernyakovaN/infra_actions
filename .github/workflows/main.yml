@@ -60,7 +60,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: chvvchvv/infra_sp2:lates
+          tags: chvvchvv/infra_actions:lates
 
   deploy:
     runs-on: ubuntu-latest
